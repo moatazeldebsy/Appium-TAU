@@ -1,7 +1,7 @@
 # Appium-TAU (Test Automation University) Course :rocket:
 
 <p align="center">
-<img src="https://github.com/moatazeldebsy/Appium-TAU/blob/master/images/appium.png">
+<img src="https://github.com/moatazeldebsy/Appium-TAU/blob/master/appium.png">
 </p>
 
 This repo contains the course material for the Test Automation University Course [Mobile Test Automation with Appium and Java
