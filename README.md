@@ -6,16 +6,6 @@
 
 This repo contains the course material for the Test Automation University Course [Mobile Test Automation with Appium and Java
 ](https://github.com/moatazeldebsy/Appium-TAU)
-
-
-# Pre-requisites
-
-In order to follow this course, you will need 
- * macOS High Sierra or Mojave | Windows 10 
- * [Visual Studio Code](https://code.visualstudio.com/)
- * [NodeJS](https://nodejs.org/en/)
- * [Github Free Account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
- * [Applitools API Key](https://auth.applitools.com/users/register)
  
 # Pre-requisites
 In order to follow this course, you will need
