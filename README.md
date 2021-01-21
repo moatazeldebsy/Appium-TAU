@@ -5,7 +5,7 @@
 </p>
 
 This repo contains the course material for the Test Automation University Course [Mobile Test Automation with Appium and Java
-](https://github.com/moatazeldebsy/Appium-TAU)
+](https://testautomationu.applitools.com/)
  
 # Pre-requisites
 In order to follow this course, you will need
