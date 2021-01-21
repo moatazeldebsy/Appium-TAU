@@ -10,7 +10,7 @@ This repo contains the course material for the Test Automation University Course
 # Pre-requisites
 In order to follow this course, you will need
 * macOS High Sierra or Mojave | Windows 10 
-* [NodeJS](https://nodejs.org/en/) and `NPM`
+* [NodeJS](https://nodejs.org/en/) and `npm`
 * [Github Free Account](https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 
 
