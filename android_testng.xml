@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="Android">
+        <classes>
+             <class name="ToDo_Android"/>
+        </classes>
+    </test>
+</suite>
