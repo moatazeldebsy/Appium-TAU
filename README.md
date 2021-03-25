@@ -70,7 +70,6 @@ https://appium.io/docs/en/about-appium/getting-started/?lang=en
 Appium Desktop
 https://github.com/appium/appium-desktop/releases/tag/v1.20.2
 
-----------------------------------------------------------------
 ideviceinstaller
 https://formulae.brew.sh/formula/ideviceinstaller
 
