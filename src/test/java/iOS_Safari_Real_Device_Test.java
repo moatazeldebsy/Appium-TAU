@@ -26,12 +26,11 @@ public class iOS_Safari_Real_Device_Test {
         capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "14.3");
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("browserName", "Safari");
-        capabilities.setCapability("xcodeOrgId", "moataznabil2019@gmail.com");
-        capabilities.setCapability("xcodeSigningId", "iPhone Developer");
-        capabilities.setCapability(MobileCapabilityType.UDID, "00008027-0019299A3E22002E");
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Moataz");
-        capabilities.setCapability("useNewWDA", "true");
-        capabilities.setCapability("derivedDataPath", "/Users/m.eldebsy/Library/Developer/Xcode/DerivedData/WebDriverAgent-gajccicmsviukfgpupdwibbrhdtm");
+        caps.setCapability("udid","YOUR UDID");
+        caps.setCapability("xcodeOrgId","YOUR ACCOUNT");
+        caps.setCapability("xcodeSigningId", "iPhone Developer");
+        caps.setCapability("useNewWDA",true);
+        caps.setCapability("derivedDataPath","your DerivedDataPath");
         driver = new IOSDriver<IOSElement>(new URL("http://localhost:4723/wd/hub"), capabilities);
     }
 
