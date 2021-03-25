@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+    <test name="iOS">
+        <classes>
+            <class name="tests.iOS_Todo_Test"/>
+        </classes>
+    </test>
+</suite>
