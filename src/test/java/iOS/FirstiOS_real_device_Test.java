@@ -21,11 +21,11 @@ public class FirstiOS_real_device_Test {
         caps.setCapability("automationName", "XCUITest");
         caps.setCapability("platformVersion", "14.4");
         caps.setCapability("deviceName", "Moataz");
-        caps.setCapability("udid","00008027-0019299A3E22002E");
-        caps.setCapability("xcodeOrgId","moataznabil2019@gmail.com");
+        caps.setCapability("udid","YOUR UDID");
+        caps.setCapability("xcodeOrgId","YOUR ACCOUNT");
         caps.setCapability("xcodeSigningId", "iPhone Developer");
         caps.setCapability("useNewWDA",true);
-        caps.setCapability("derivedDataPath","/Users/m.eldebsy/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu");
+        caps.setCapability("derivedDataPath","your DerivedDataPath");
         caps.setCapability("app", System.getProperty("user.dir") + "/apps/UIKitCatalog-ios.zip");
         driver = new IOSDriver(new URL("http://localhost:4723/wd/hub"), caps);
     }
