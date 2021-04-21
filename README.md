@@ -112,7 +112,7 @@ https://maven.apache.org/download.cgi
 
 Add Project to GitHub
 Adding an existing project to GitHub using the command line
-- https://help.github.com/en/github/importing-your-projects-to-github/- adding-an-existing-project-to-github-using-the-command-line
+- https://help.github.com/en/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line
 
 Appium with GitHub Actions
 - https://help.github.com/en/actions
