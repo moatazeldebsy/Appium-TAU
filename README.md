@@ -85,17 +85,17 @@ https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/imag
 
 ffmpeg
 https://www.npmjs.com/package/ffmpeg
-npm install -g ffmpeg
+`npm install -g ffmpeg`
 
 mjpeg-consumer
-npm install -g mjpeg-consumer
+`npm install -g mjpeg-consumer`
 
 
 set-simulator-location
 https://github.com/MobileNativeFoundation/set-simulator-location#installation
 
 Python 3
-brew install python3
+`brew install python3`
 
 appium idb
 https://github.com/appium/appium-idb
