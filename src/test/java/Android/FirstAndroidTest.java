@@ -17,10 +17,11 @@ public class FirstAndroidTest {
     @BeforeTest
     public void setUp() throws MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("platformName", "Android");
-        caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("platformVersion", "9.0");
+           caps.setCapability("platformName", "Android");
+        caps.setCapability("automationName", "espresso");
+        caps.setCapability("platformVersion", "8.1");
         caps.setCapability("deviceName", "Android Emulator");
+        caps.setCapability("forceEspressoRebuild",true);
         caps.setCapability("app", System.getProperty("user.dir") + "/apps/ApiDemos.apk");
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), caps);
     }
