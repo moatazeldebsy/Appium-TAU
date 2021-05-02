@@ -19,6 +19,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("forceEspressoRebuild",true);
         capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("skipServerInstallation",true);
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/ToDo.apk");
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
