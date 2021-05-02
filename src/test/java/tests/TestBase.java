@@ -15,7 +15,6 @@ public class TestBase extends AbstractTestNGCucumberTests {
 
     public static void Android_setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("automationName", "espresso");
         capabilities.setCapability("platformVersion", "8.1");
         capabilities.setCapability("deviceName", "Android Emulator");
         capabilities.setCapability("forceEspressoRebuild",true);
