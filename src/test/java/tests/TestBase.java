@@ -18,7 +18,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("automationName" , "espresso");
         capabilities.setCapability("platformVersion", "8.1");
         capabilities.setCapability("deviceName", "Android Emulator");
-        capabilities.setCapability("forceEspressoRebuild",true);
+       // capabilities.setCapability("forceEspressoRebuild",true);
         capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("permissions","android.permission.INTERNET");
