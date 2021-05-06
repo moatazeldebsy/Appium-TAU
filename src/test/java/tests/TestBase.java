@@ -21,6 +21,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("forceEspressoRebuild",true);
         capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("platformName", "Android");
+        capabilities.setCapability("permissions","android.permission.INTERNET");
        // capabilities.setCapability("skipServerInstallation",true);
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/ToDo.apk");
