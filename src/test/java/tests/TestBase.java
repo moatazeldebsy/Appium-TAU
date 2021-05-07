@@ -22,9 +22,8 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("permissions","android.permission.INTERNET");
-       // capabilities.setCapability("skipServerInstallation",true);
-        capabilities.setCapability("adbPort","5555");
-        capabilities.setCapability("adbExecTimeout","90000");
+        capabilities.setCapability("skipServerInstallation",true);
+        capabilities.setCapability("adbExecTimeout","40000");
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/ToDo.apk");
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
