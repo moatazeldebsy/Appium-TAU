@@ -15,16 +15,9 @@ public class TestBase extends AbstractTestNGCucumberTests {
 
     public static void Android_setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("automationName" , "espresso");
-        capabilities.setCapability("platformVersion", "10.0");
+        capabilities.setCapability("platformVersion", " 7.1");
         capabilities.setCapability("deviceName", "Android Emulator");
-        capabilities.setCapability("forceEspressoRebuild",true);
-        capabilities.setCapability("appium:autoGrantPermissions", true);
         capabilities.setCapability("platformName", "Android");
-        capabilities.setCapability("permissions","android.permission.INTERNET");
-        capabilities.setCapability("skipServerInstallation",true);
-        capabilities.setCapability("showGradleLog",true);
-        capabilities.setCapability("adbExecTimeout","40000");
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/ToDo.apk");
         driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
