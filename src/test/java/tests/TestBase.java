@@ -28,7 +28,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("deviceName", "iPhone X");
         capabilities.setCapability("automationName","XCUITest");
-        capabilities.setCapability("isHeadless",true);
+      //  capabilities.setCapability("isHeadless",true);
         capabilities.setCapability("showXcodeLog",true);
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/DailyCheck.zip");
