@@ -29,7 +29,6 @@ public class iOS_Todo_Test extends TestBase {
         tasksListPage.clickAddTaskBtn();
         createTaskPage.enterTaskName(taskName);
         createTaskPage.enterTaskDesc(TaskDesc);
-        driver.hideKeyboard();
         createTaskPage.clickSaveBtn();
         tearDown();
     }

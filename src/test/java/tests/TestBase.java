@@ -15,10 +15,10 @@ public class TestBase extends AbstractTestNGCucumberTests {
 
     public static void Android_setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        caps.setCapability("automationName", "espresso");
-        caps.setCapability("platformVersion", "8.1");
-        caps.setCapability("deviceName", "Android Emulator");
-        caps.setCapability("forceEspressoRebuild",true);
+        capabilities.setCapability("automationName", "espresso");
+        capabilities.setCapability("platformVersion", "8.1");
+        capabilities.setCapability("deviceName", "Android Emulator");
+        capabilities.setCapability("forceEspressoRebuild",true);
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/ToDo.apk");
@@ -31,6 +31,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         capabilities.setCapability("deviceName", "iPhone X");
         capabilities.setCapability("automationName","XCUITest");
         capabilities.setCapability("isHeadless",true);
+        capabilities.setCapability("showXcodeLog",true);
         capabilities.setCapability("app",
                 System.getProperty("user.dir") + "/apps/DailyCheck.zip");
         driver = new IOSDriver<>(new URL("http://localhost:4723/wd/hub"), capabilities);
