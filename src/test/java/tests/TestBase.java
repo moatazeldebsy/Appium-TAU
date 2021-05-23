@@ -26,8 +26,10 @@ public class TestBase extends AbstractTestNGCucumberTests {
     public void iOS_setUp() throws MalformedURLException {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
-        capabilities.setCapability("deviceName", "iPhone 12 Pro Max");
+        capabilities.setCapability("platformVersion","14.3");
+        capabilities.setCapability("deviceName", "iPhone X");
         capabilities.setCapability("automationName","XCUITest");
+        capabilities.setCapability("derivedDataPath","/Users/vagrant/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu");
       //  capabilities.setCapability("isHeadless",true);
         capabilities.setCapability("showXcodeLog",true);
         capabilities.setCapability("app",
