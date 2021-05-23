@@ -27,7 +27,7 @@ public class TestBase extends AbstractTestNGCucumberTests {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("platformName", "iOS");
         capabilities.setCapability("platformVersion","14.3");
-        capabilities.setCapability("deviceName", "iPhone X");
+        capabilities.setCapability("deviceName", "iPhone Pro");
         capabilities.setCapability("automationName","XCUITest");
         capabilities.setCapability("derivedDataPath","/Users/vagrant/Library/Developer/Xcode/DerivedData/WebDriverAgent-ciegwgvxzxdrqthilmrmczmqvrgu");
       //  capabilities.setCapability("isHeadless",true);
